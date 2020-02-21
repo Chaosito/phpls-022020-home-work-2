@@ -2,9 +2,9 @@
 
 # Домашнее задание №2
 // Задание №1
-function task1($strArr, $ret = false)
+function task1($arrayWords, $ret = false)
 {
-    $str = implode('', array_map(function($el){return "<p>{$el}</p>";}, $strArr));
+    $str = implode('', array_map(function($el){return "<p>{$el}</p>";}, $arrayWords));
 
     if ($ret) {
         return $str;
